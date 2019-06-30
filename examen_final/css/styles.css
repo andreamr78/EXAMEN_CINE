@@ -1,0 +1,115 @@
+body{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+
+}
+.cinemexlogo{
+    width: 100%;
+}
+
+.fab{
+    color: black;
+}
+.navbar{
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    box-shadow: none;
+    background-color: red;
+    opacity: 0.8; 
+    filter:(opacity=50);
+}
+
+.titulo{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.tituloabout{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.estrenos{
+    margin-left: 250px;
+    padding: 40px;
+}
+
+.trailers{
+    margin-left: 390px;
+    margin-bottom: 50px;
+}
+
+#info{
+    width: 100%;
+    height: 1520px;
+}
+
+#mision{
+    width: 50%;
+    margin-left:20px;
+    float: left;
+}
+#imgmision{
+    width: 50%;
+    float: right;
+}
+
+#imgmision1{
+    margin-top: 120px;
+    margin-right: 300px;
+    width: 25%;
+    float: right;
+    padding: 40px;
+}
+
+#imgmision2{
+    margin-right: 300px;
+    margin-top: 50px;
+    width: 25%;
+    float: right;
+    padding: 40px;
+}
+
+/* Forma de Contacto */
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+  
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+  
+#contact-form textarea {
+    height: 200px;
+}
+  
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+
+}
+
+#main-footer {
+   background-color: red;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color:black;
+    padding: 20px;
+}
